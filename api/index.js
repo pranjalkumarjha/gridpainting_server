@@ -18,4 +18,4 @@ app.get('/joinRoom',(req,res)=>{
 
 app.listen(port,()=>{console.log(`listening on port ${port}`)});
 
-export {app}
+export default app;
